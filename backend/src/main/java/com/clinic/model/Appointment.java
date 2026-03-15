@@ -15,6 +15,7 @@ private Doctor doctor;
 @ManyToOne
 private Patient patient;
 
+@NotNull
 @Future
 private LocalDateTime appointmentTime;
 
